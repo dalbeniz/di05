@@ -1,0 +1,20 @@
+.contenedor-barchart{
+    width: 100%; 
+    max-width: 950px; 
+    //height: 300px; 
+    margin: auto; 
+    text-align: center;
+}
+
+@media screen and (min-width: 1050px){
+  .chart{
+      height: 750px; 
+    }
+}
+
+@media screen and (max-width: 1049px){
+  .chart{
+      height: 250px; 
+    }
+}
+
